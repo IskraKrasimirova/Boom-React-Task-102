@@ -8,7 +8,7 @@ function App() {
       <motion.form
         initial={{ x: '-200%' }}
         animate={{ x: '0%' }}
-        style={{ position: 'absolute', top: '15%', transform: 'translateY(0%)' }}
+        style={{ position: 'absolute', top: '15%', transform: 'translateZ(0px)' }}
       >
         <form>
           <h1>Create An Account</h1>
